@@ -1,0 +1,46 @@
+@import "reset.scss";
+
+body { 
+    background: #0A0A0A;
+    color: #fff;
+}
+
+[class*="__container"] { 
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+[class*="__title"] {
+    font-family: 'Montserrat' ;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 59px;
+    letter-spacing: 0em;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+@media (max-width: 576px) { 
+    [class*="__title"] { 
+        font-size: 38px;
+    }
+}
+
+[class*="__text"] { 
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    margin: 16px 0;
+
+}
+
+[class*="__subtitle"] {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin: 20px 0;
+}
